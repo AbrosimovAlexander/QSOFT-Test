@@ -1,0 +1,12 @@
+.search-string__input {
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.search-string__input::-moz-placeholder { color: rgb(187, 196, 214);}
+.search-string__input::-webkit-input-placeholder { color: rgb(187, 196, 214); }

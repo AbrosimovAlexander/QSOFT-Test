@@ -1,0 +1,25 @@
+.search-string__button {
+  margin-left: 10px;
+  border: none;
+  background-image: url("../../../icons/Lupa.svg");
+  object-fit: contain;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center;
+  opacity: 1;
+  transition: opacity 0.2s linear;
+}
+
+.search-string__button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 376px){
+  .search-string__button{
+    margin-left: 20px;
+  }
+}
+

@@ -1,0 +1,23 @@
+.profile__button-icon {
+  display: none;
+}
+
+@media screen and (max-width: 376px) {
+  .profile__button-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-image: url("../../../icons/Profile-stroke.svg");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    opacity: 1;
+    transition: opacity 0.2s linear;
+  }
+  .profile__button-icon:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+}

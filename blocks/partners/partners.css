@@ -1,0 +1,22 @@
+.partners{
+  margin-top: 70px;
+  width: 100%;
+  max-width: 1240px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 901px){
+  .partners{
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 376px){
+  .partners{
+    max-width: 335px;
+  }
+}
+

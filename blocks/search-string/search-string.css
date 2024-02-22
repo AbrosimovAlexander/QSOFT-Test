@@ -1,0 +1,33 @@
+.search-string{
+  width: 100%;
+  max-width: 835px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(235, 235, 241);
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+@media screen and (max-width: 1251px){
+  .search-string{
+    margin: 0 5px;
+  }
+}
+
+@media screen and (max-width: 901px){
+  .search-string{
+    max-width: 344px;
+  }
+}
+
+@media screen and (max-width: 376px){
+  .search-string{
+    max-width: 100%;
+    border: none;
+    border-top: 1px solid  rgb(187, 196, 214);
+    border-radius: 0;
+  }
+}

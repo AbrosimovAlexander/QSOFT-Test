@@ -1,0 +1,19 @@
+.partners__title {
+  margin: 0;
+  padding: 0;
+  color: rgb(18, 25, 32);
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 901px){
+  .partners__title{
+    font-size: 28px;
+  }
+}

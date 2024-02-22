@@ -1,0 +1,17 @@
+.profile{
+  height: 100%;
+  width: 100%;
+  max-width: 149px;
+  box-sizing: border-box;
+  border-left: 1px solid rgb(235, 235, 241);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 376px){
+  .profile{
+    display: none;
+  }
+}
