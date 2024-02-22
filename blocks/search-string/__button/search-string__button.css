@@ -1,13 +1,15 @@
 .search-string__button {
+  width: 24px;
+  height: 24px;
   margin-left: 10px;
+
   border: none;
   background-image: url("../../../icons/Lupa.svg");
   object-fit: contain;
-  width: 24px;
-  height: 24px;
   background-repeat: no-repeat;
   background-color: transparent;
   background-position: center;
+  
   opacity: 1;
   transition: opacity 0.2s linear;
 }
@@ -17,7 +19,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 767px){
   .search-string__button{
     margin-left: 20px;
   }

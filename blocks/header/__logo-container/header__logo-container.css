@@ -1,11 +1,12 @@
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 767px){
   .header__logo-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
     max-width: 333.12px;
     min-height: 62px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }

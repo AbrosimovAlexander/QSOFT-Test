@@ -1,6 +1,7 @@
 .partners__title {
   margin: 0;
   padding: 0;
+  
   color: rgb(18, 25, 32);
   font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 36px;
@@ -12,7 +13,7 @@
 }
 
 
-@media screen and (max-width: 901px){
+@media screen and (max-width: 1279px){
   .partners__title{
     font-size: 28px;
   }

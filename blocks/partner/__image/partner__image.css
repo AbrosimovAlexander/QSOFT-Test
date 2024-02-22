@@ -4,14 +4,14 @@
   object-fit: contain;
 }
 
-@media screen and (max-width: 901px) {
+@media screen and (max-width: 1279px) {
   .partner__image {
     width: 199px;
     height: 90px;
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 767px) {
   .partner__image {
     width: 285px;
     height: 90px;
